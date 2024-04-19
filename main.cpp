@@ -18,7 +18,7 @@ int main() {
 		std::cout << "Grid file path : ";
 		std::cin >> grid_file_path;
 		std::cout << "\n";
-		out_file_path = "./Converted/2D_" + grid_file_path + ".msh";
+		out_file_path = "./Converted/" + grid_file_path + ".msh";
 		grid_file_path = "./Original/" + grid_file_path + ".msh";
 
 		infile.open(grid_file_path.c_str());
